@@ -1,0 +1,26 @@
+/*Flexbox containers*/
+article.container
+{
+    width: 600px;
+    height: 500px;
+    padding: 10px;
+    margin: 30px auto;
+    background-color: pink;
+    display: flex;
+    flex-direction: row; /*deafult valu*/
+    flex-direction: row-reverse; /*b7al yla drt l item float right*/
+    flex-direction: column;
+    flex-wrap: wrap; /*b7al yla drt overflow hidden*/
+    flex-wrap: wrap;
+
+    justify-content: flex-start; /*default value || flex-end ||*/ 
+    justify-content: center; /*horizontal*/
+    justify-content: space-between; /*katkhli awal item flawl akhir item flakahr*/
+    justify-content: space-around; /**/
+
+}
+article.container section
+{
+    margin: 10px;
+    background-color: lightblue;
+}
